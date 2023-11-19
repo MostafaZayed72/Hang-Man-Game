@@ -100,7 +100,6 @@ document.addEventListener("click", (e) => {
         else {
             //Play Success Sound
             document.getElementById("success").play();
-            endGameSuccess()
             // check if the letters is all correct 
             const arrayOfGuesses = Array.from(guessSpans)
             const values = arrayOfGuesses.map((span) => span.innerText)
