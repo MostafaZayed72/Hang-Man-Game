@@ -184,7 +184,7 @@ display: block;
     margin-right: 10px;
     margin-bottom: 10px;
     line-height: 55px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
 }
